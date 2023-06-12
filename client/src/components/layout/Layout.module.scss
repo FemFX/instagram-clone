@@ -1,0 +1,11 @@
+.grid {
+  display: grid;
+  grid-template: "header main";
+
+  nav {
+    grid-area: "header";
+  }
+  main {
+    grid-area: "main";
+  }
+}
